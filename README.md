@@ -24,3 +24,9 @@ The project demonstrates **C# fundamentals, OOP concepts, and collections** in a
 ---
 
 ## 📂 Project Structure
+StudentManagement/
+│── Program.cs # Main program logic
+│── Models/
+│ └── Student.cs # Student model (Id, Name, Age)
+│── Services/
+│ └── StudentService.cs # Handles CRUD operations
