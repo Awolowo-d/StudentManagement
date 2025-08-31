@@ -1,32 +1,20 @@
 # Student Management System (C# Console App)
 
-This is a simple **C# console application** for managing students.  
-It allows you to **Add, View, Update, and Delete** student records.  
-The project demonstrates **C# fundamentals, OOP concepts, and collections** in action.  
+A simple C# console application to manage students.  
+Features include: Add, View, Update, and Delete student records.  
 
----
+## Features
+- Add a student  
+- View students  
+- Update student details  
+- Delete a student  
 
-## 🚀 Features
-- Add a new student with name and age.
-- View all students in the system.
-- Update a student's details (name, age).
-- Delete a student by ID.
-- Console-based user interface.
+## Technologies Used
+- C# (.NET)  
+- OOP, Collections  
 
----
-
-## 🛠️ Technologies Used
-- C# (.NET)
-- Object-Oriented Programming (OOP)
-- Lists & Collections
-- Basic Console Input/Output
-
----
-
-## 📂 Project Structure
-StudentManagement/
-│── Program.cs # Main program logic
-│── Models/
-│ └── Student.cs # Student model (Id, Name, Age)
-│── Services/
-│ └── StudentService.cs # Handles CRUD operations
+## How to Run
+1. Open in Visual Studio or VS Code  
+2. Run with:  
+   ```bash
+   dotnet run
